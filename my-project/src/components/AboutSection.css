@@ -1,0 +1,251 @@
+.about-section {
+    padding: 6rem 4rem;
+    background-color: var(--primary-color);
+    position: relative;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  .about-header {
+    margin-bottom: 5rem;
+    position: relative;
+  }
+  
+  .greeting {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+  }
+  
+  .greeting-hi {
+    color: var(--text-color);
+  }
+  
+  .greeting-name {
+    color: var(--accent-color);
+  }
+  
+  .about-description {
+    max-width: 800px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--light-text);
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
+  
+  /* Content Layout */
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    font-weight: normal;
+  }
+  
+  .title-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-right: 1.5rem;
+    white-space: nowrap;
+  }
+  
+  .title-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--border-color);
+  }
+  
+  /* Experience Section */
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+  .experience-item {
+    position: relative;
+  }
+  
+  .company-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+  }
+  
+  .role-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+  }
+  
+  .period {
+    font-size: 0.9rem;
+    color: var(--light-text);
+    font-weight: 300;
+  }
+  
+  /* Contact Section */
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: var(--accent-color);
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .behance-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23232323'%3E%3Cpath d='M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z'/%3E%3C/svg%3E");
+  }
+  
+  .linkedin-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23232323'%3E%3Cpath d='M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z'/%3E%3C/svg%3E");
+  }
+  
+  .email-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23232323'%3E%3Cpath d='M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z'/%3E%3C/svg%3E");
+  }
+  
+  /* Software Section */
+  .software-icons {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .software-icon {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .software-icon:hover {
+    opacity: 1;
+  }
+  
+  .figma {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23232323'%3E%3Cpath d='M15.852 8.981h-4.588v-4.588h4.588c1.265 0 2.291 1.026 2.291 2.291 0 1.265-1.026 2.297-2.291 2.297m-4.588 8.331h-4.588c-1.265 0-2.291-1.026-2.291-2.291s1.026-2.291 2.291-2.291h4.588v4.582zm4.588-4.582h-4.588v-4.588h4.588c1.265 0 2.291 1.026 2.291 2.291 0 1.265-1.026 2.297-2.291 2.297m-9.176-4.588c0-1.265 1.026-2.291 2.291-2.291h4.588v4.588h-4.588c-1.265 0-2.291-1.026-2.291-2.297m-2.291 4.588c0-1.265 1.026-2.291 2.291-2.291h4.588v4.588h-4.588c-1.265 0-2.291-1.026-2.291-2.297z'/%3E%3C/svg%3E");
+  }
+  
+  .photoshop {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23232323'%3E%3Cpath d='M2.5 1c-.7 0-1.5.8-1.5 1.5v19c0 .7.8 1.5 1.5 1.5h19c.7 0 1.5-.8 1.5-1.5v-19c0-.7-.8-1.5-1.5-1.5h-19zm6.1 5.8c.6 0 1.1 0 1.4.1.3 0 .6.1.9.2.2.1.4.3.5.5.1.2.2.5.2.9 0 .3-.1.6-.2.9-.1.2-.3.4-.5.6-.2.1-.5.2-.8.3-.3.1-.7.1-1.1.1h-1.2v-3.6h.8zm-3.8 5.6h3v.9h-3v-.9zm3.8-4.7h-.9v2.8h.7c.3 0 .5 0 .7-.1.2 0 .4-.1.5-.2.1-.1.2-.2.3-.4.1-.2.1-.4.1-.6 0-.2 0-.4-.1-.5-.1-.2-.1-.3-.3-.4-.1-.1-.3-.2-.5-.2-.2-.3-.3-.4-.5-.4zm5.9-1.5c.6 0 1.1.1 1.6.2.5.1.9.3 1.2.6.3.3.6.6.8 1 .2.4.3.9.3 1.4 0 .5-.1 1-.3 1.4-.2.4-.5.7-.8 1-.4.3-.8.5-1.3.6-.5.1-1 .2-1.6.2h-1.3v3.8h-2.9v-10.2h4.3zm-.2 4.6c.4 0 .7-.1 1-.3.2-.2.3-.5.3-.9 0-.2 0-.4-.1-.5-.1-.1-.2-.3-.3-.3-.1-.1-.3-.1-.4-.2-.2 0-.3 0-.5 0h-1.1v2.2h1.1z'/%3E%3C/svg%3E");
+  }
+  
+  .illustrator {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23232323'%3E%3Cpath d='M10.53 10.73c-.1-.31-.19-.61-.29-.92-.1-.31-.19-.6-.27-.89-.08-.28-.15-.54-.22-.78h-.02c-.09.43-.2.86-.34 1.29-.15.48-.3.98-.46 1.48-.14.51-.29.98-.44 1.4h2.54c-.06-.21-.14-.46-.23-.72-.08-.27-.17-.55-.27-.86zm6.5-3.33c-.44-.55-1.01-.82-1.73-.82-.35 0-.65.08-.9.22-.25.15-.45.35-.59.61-.14.25-.24.55-.31.88-.07.33-.1.69-.1 1.07v4.07h1.21v-4.07c0-.44.05-.77.15-.99.1-.22.29-.33.57-.33.22 0 .4.05.53.14.14.09.24.22.32.38.07.16.12.34.15.55.03.21.04.43.04.66v3.66h1.21v-3.98c0-.71-.18-1.3-.55-1.75zm-10.53.32h-1.21v-1.72h-1.27v1.72h-1.02v1.03h1.02v4.3c0 .33.06.6.17.82.11.22.26.39.44.51.18.12.38.2.61.24.23.04.46.06.69.06.2 0 .4-.01.59-.02.19-.02.35-.04.49-.08v-1.03c-.09.02-.18.04-.28.05-.1.01-.22.01-.36.01-.18 0-.32-.01-.42-.04-.1-.03-.18-.07-.23-.13-.05-.06-.09-.14-.1-.24-.01-.1-.02-.23-.02-.37v-4.08h1.21v-1.03zm14.5-.32c-.44-.55-1.01-.82-1.73-.82-.35 0-.65.08-.9.22-.25.15-.45.35-.59.61-.14.25-.24.55-.31.88-.07.33-.1.69-.1 1.07v4.07h1.21v-4.07c0-.44.05-.77.15-.99.1-.22.29-.33.57-.33.22 0 .4.05.53.14.14.09.24.22.32.38.07.16.12.34.15.55.03.21.04.43.04.66v3.66h1.21v-3.98c0-.71-.18-1.3-.55-1.75zm-7.5 5.95h-4.05l-.56 1.65h-1.4l3.17-9.1h1.69l3.17 9.1h-1.45l-.57-1.65zm-6.5-1.58l-1.44 3.23h-1.4l3.17-9.1h1.69l3.17 9.1h-1.45l-2.45-7.05c-.1-.31-.19-.61-.29-.92-.1-.31-.19-.6-.27-.89-.08-.28-.15-.54-.22-.78h-.02c-.09.43-.2.86-.34 1.29-.15.48-.3.98-.46 1.48-.14.51-.29.98-.44 1.4h-1.21v1.03h1.21v1.21z'/%3E%3C/svg%3E");
+  }
+  
+  .xd {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23232323'%3E%3Cpath d='M19.75 2c1.24 0 2.25 1.01 2.25 2.25v15.5c0 1.24-1.01 2.25-2.25 2.25h-15.5c-1.24 0-2.25-1.01-2.25-2.25v-15.5c0-1.24 1.01-2.25 2.25-2.25h15.5zm-7.99 6.67c-.35 0-.69.07-1.03.22-.33.15-.63.37-.89.67-.26.29-.47.67-.63 1.12-.16.45-.24.98-.24 1.59 0 .56.08 1.04.23 1.46.15.42.36.77.63 1.06s.58.5.95.65c.37.15.77.22 1.2.22.34 0 .64-.04.93-.11.29-.07.62-.23.99-.48v-5.72c-.18-.24-.39-.43-.65-.56-.26-.13-.53-.2-.82-.2-.23 0-.45.04-.67.08zm-4.93 7.11c.18.22.39.4.65.52.26.12.55.18.86.18.32 0 .61-.06.87-.18.26-.12.48-.29.66-.52.18-.22.32-.5.42-.83.1-.33.15-.71.15-1.13v-6.5h1.17v6.9c0 .61-.09 1.14-.28 1.59-.19.45-.44.82-.77 1.11-.33.29-.71.5-1.15.63-.44.13-.9.2-1.4.2-.42 0-.8-.05-1.14-.16-.35-.11-.66-.26-.93-.47-.27-.21-.49-.47-.67-.79-.18-.32-.29-.7-.33-1.14h1.16c.05.27.15.5.33.72zm10.88-7.94l-2.29 7.55c-.1.32-.22.66-.37 1.02-.15.36-.34.69-.59.99-.24.3-.55.54-.92.73-.37.19-.83.28-1.39.28-.15 0-.31-.01-.49-.02-.18-.01-.31-.03-.39-.04v-1.03c.07.01.15.02.24.03.09.01.19.01.31.01.25 0 .46-.03.64-.1.18-.07.33-.16.45-.29.12-.13.22-.28.3-.45.08-.17.15-.36.21-.57l.24-.78-2.97-7.34h1.27l2.17 5.81 2.2-5.81h1.38z'/%3E%3C/svg%3E");
+  }
+  
+  .indesign {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23232323'%3E%3Cpath d='M19.688 0h-15.375c-2.375 0-4.313 1.938-4.313 4.313v15.375c0 2.375 1.938 4.313 4.313 4.313h15.375c2.375 0 4.313-1.938 4.313-4.313v-15.375c0-2.375-1.938-4.313-4.313-4.313zm-11.688 15.75c0 .125-.063.188-.188.188h-1.5c-.125 0-.188-.063-.188-.188v-10.5c0-.125.063-.188.188-.188h1.5c.125 0 .188.063.188.188v10.5zm8.562-4.688c0 .563-.063 1.125-.313 1.625-.188.5-.5.938-.875 1.313-.375.375-.813.625-1.313.813-.5.188-1.063.25-1.688.25s-1.188-.063-1.688-.25c-.5-.188-.938-.438-1.313-.813-.375-.375-.625-.813-.875-1.313-.188-.5-.313-1.063-.313-1.625v-5.813c0-.125.063-.188.188-.188h1.5c.125 0 .188.063.188.188v5.813c0 .625.125 1.125.438 1.5.313.375.75.563 1.375.563.625 0 1.125-.188 1.438-.563.313-.375.438-.875.438-1.5v-5.813c0-.125.063-.188.188-.188h1.5c.125 0 .188.063.188.188v5.813z'/%3E%3C/svg%3E");
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .about-section {
+      padding: 4rem 2rem;
+    }
+    
+    .greeting {
+      font-size: 3.5rem;
+    }
+    
+    .about-content {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+    
+    .title-text {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 3rem 1.5rem;
+    }
+    
+    .greeting {
+      font-size: 3rem;
+    }
+    
+    .about-description {
+      font-size: 1rem;
+    }
+    
+    .company-name {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-section {
+      padding: 2rem 1rem;
+    }
+    
+    .greeting {
+      font-size: 2.5rem;
+    }
+    
+    .title-text {
+      font-size: 1.8rem;
+    }
+    
+    .company-name {
+      font-size: 1.3rem;
+    }
+    
+    .software-icons {
+      gap: 1rem;
+    }
+    
+    .software-icon {
+      width: 35px;
+      height: 35px;
+    }
+  }
